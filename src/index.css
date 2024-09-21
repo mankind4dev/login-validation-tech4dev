@@ -180,6 +180,12 @@ section .row input {
     font-size: 1.5rem;
   }
 
+ 
+
+  .container > .reg {
+    padding: 0px 10px;
+  }
+
   .container .reg {
     width: 80%;
   }
@@ -197,16 +203,14 @@ section .row input {
   header > ul {
     display: none;
   }
-  .container {
-    height: 180vh;
-  }
+ 
 
   .container > .reg {
-    padding: 0px 20px;
+    padding: 0px 10px;
   }
 
   .container .reg {
-    width: 80%;
+    width: 90%;
   }
 
   .reg p {
@@ -219,11 +223,11 @@ section .row input {
   }
 
   .container > .reg {
-    padding: 0px 20px;
+    padding: 0px 10px;
   }
 
   .container .reg {
-    width: 80%;
+    width: 90%;
   }
 
   .reg p {
