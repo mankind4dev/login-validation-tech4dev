@@ -49,12 +49,11 @@ header button {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 1rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), #333),
     url(./assets/bg8.jpg);
   background-size: cover;
   background-position: center;
- height: 120vh;
-  
 }
 
 .reg h1 {
@@ -68,7 +67,6 @@ header button {
   padding: 0px 50px;
   border-radius: 10px;
   width: 70%;
-  
 }
 
 .reg button {
@@ -92,27 +90,27 @@ header button {
   white-space: nowrap;
 }
 
-.reg p{
+.reg p {
   font-size: 18px;
-  color:   rgb(158, 143, 143)
+  color: rgb(158, 143, 143);
 }
 
-.reg .regLink{
+.reg .regLink {
   color: green;
   white-space: nowrap;
   margin-left: 10px;
   text-decoration: none;
 }
-.reg .regLink:hover{
-text-decoration: underline;
+.reg .regLink:hover {
+  text-decoration: underline;
 }
-.reg .forgetPass{
+.reg .forgetPass {
   color: red;
   white-space: nowrap;
   margin-left: 10px;
   text-decoration: none;
 }
-.reg .forgetPass:hover{
+.reg .forgetPass:hover {
   text-decoration: underline;
 }
 
@@ -123,8 +121,8 @@ text-decoration: underline;
 }
 
 section .row input {
-  padding: 15px;
-  margin: 10px 0px;
+  padding: 12px;
+  margin: 7px 0px;
   border-radius: 5px;
   border: 1px solid gray;
   outline: none;
@@ -137,7 +135,7 @@ section .row input {
 
 .row span {
   font-size: 12px;
-  padding: 3px;
+  padding: 0px 3px;
   color: red;
   display: none;
 }
@@ -150,17 +148,12 @@ section .row input {
   display: block;
 }
 
-
-
 @media screen and (max-width: 1400px) {
   header > ul > li > a {
     font-size: 2rem;
   }
-  .container{
-    height: 190vh;
-  }
 
-  .container .reg{
+  .container .reg {
     width: 80%;
   }
 }
@@ -168,11 +161,8 @@ section .row input {
   header > ul > li > a {
     font-size: 1.7rem;
   }
-  .container{
-    height: 190vh;
-  }
 
-  .container .reg{
+  .container .reg {
     width: 80%;
   }
 }
@@ -180,11 +170,8 @@ section .row input {
   header > ul > li > a {
     font-size: 1.7rem;
   }
-  .container{
-    height: 190vh;
-  }
 
-  .container .reg{
+  .container .reg {
     width: 80%;
   }
 }
@@ -192,11 +179,8 @@ section .row input {
   header > ul > li > a {
     font-size: 1.5rem;
   }
-  .container{
-    height: 190vh;
-  }
 
-  .container .reg{
+  .container .reg {
     width: 80%;
   }
 }
@@ -204,19 +188,16 @@ section .row input {
   header > ul > li > a {
     font-size: 1.2rem;
   }
-  .container{
-    height: 190vh;
-  }
 
-  .container .reg{
+  .container .reg {
     width: 80%;
   }
 }
 @media screen and (max-width: 376px) {
-  header > ul  {
+  header > ul {
     display: none;
   }
-  .container{
+  .container {
     height: 180vh;
   }
 
@@ -224,7 +205,7 @@ section .row input {
     padding: 0px 20px;
   }
 
-  .container .reg{
+  .container .reg {
     width: 80%;
   }
 
@@ -233,22 +214,24 @@ section .row input {
   }
 }
 @media screen and (max-width: 320px) {
-  header > ul  {
+  header > ul {
     display: none;
-  }
-  .container{
-    height: 180vh;
   }
 
   .container > .reg {
     padding: 0px 20px;
   }
 
-  .container .reg{
+  .container .reg {
     width: 80%;
   }
 
   .reg p {
     font-size: 1rem;
+  }
+
+  .reg >.acct{
+    font-size: 0.9rem
+
   }
 }

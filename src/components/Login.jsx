@@ -59,7 +59,7 @@ export default function Register() {
             <Link className="forgetPass">Forget password</Link>
             <button type="submit">Login</button>
           </form>
-          <p className="">
+          <p className="acct">
             Don't have an account? <Link to="/register" className="regLink">Register</Link>
           </p>
         </div>

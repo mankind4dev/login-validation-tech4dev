@@ -91,8 +91,8 @@ export default function Register() {
             ))}
             <button type="submit">Register</button>
           </form>
-          <p className="">
-            Already have an account? <Link to="/login">Sign In</Link>
+          <p className="acct">
+            Already have an account? <Link to="/login" className="regLink">Sign In</Link>
           </p>
         </div>
       </section>
