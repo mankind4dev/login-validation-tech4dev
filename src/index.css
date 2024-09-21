@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 1rem;
+}
+
+header img {
+  width: 60px;
+  height: 40px;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header > ul > li {
+  list-style: none;
+  margin-right: 25px;
+}
+
+header > ul > li > a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+header button {
+  padding: 0.625rem 1rem;
+  border-radius: 6px;
+  font-size: 18px;
+  color: #fff;
+  background-color: lightgreen;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), #333),
+    url(./assets/bg8.jpg);
+  background-size: cover;
+  background-position: center;
+ height: 120vh;
+  
+}
+
+.reg h1 {
+  color: #fff;
+  text-align: start;
+  margin: 10px 0;
+}
+
+.container .reg {
+  background-color: #333;
+  padding: 0px 50px;
+  border-radius: 10px;
+  width: 70%;
+  
+}
+
+.reg button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: #333;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.container .reg > p {
+  display: flex;
+  margin-bottom: 10px;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.reg p{
+  font-size: 18px;
+  color:   rgb(158, 143, 143)
+}
+
+.reg .regLink{
+  color: green;
+  white-space: nowrap;
+  margin-left: 10px;
+  text-decoration: none;
+}
+.reg .regLink:hover{
+text-decoration: underline;
+}
+.reg .forgetPass{
+  color: red;
+  white-space: nowrap;
+  margin-left: 10px;
+  text-decoration: none;
+}
+.reg .forgetPass:hover{
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+section .row input {
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.row label {
+  font-size: 18px;
+  color: #fff;
+}
+
+.row span {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
+
+.row input:invalid[focussed="true"] {
+  border: 2px solid red;
+}
+
+.row input:invalid[focussed="true"] ~ span {
+  display: block;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+  header > ul > li > a {
+    font-size: 2rem;
+  }
+  .container{
+    height: 190vh;
+  }
+
+  .container .reg{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header > ul > li > a {
+    font-size: 1.7rem;
+  }
+  .container{
+    height: 190vh;
+  }
+
+  .container .reg{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 992px) {
+  header > ul > li > a {
+    font-size: 1.7rem;
+  }
+  .container{
+    height: 190vh;
+  }
+
+  .container .reg{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  header > ul > li > a {
+    font-size: 1.5rem;
+  }
+  .container{
+    height: 190vh;
+  }
+
+  .container .reg{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 576px) {
+  header > ul > li > a {
+    font-size: 1.2rem;
+  }
+  .container{
+    height: 190vh;
+  }
+
+  .container .reg{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 376px) {
+  header > ul  {
+    display: none;
+  }
+  .container{
+    height: 180vh;
+  }
+
+  .container > .reg {
+    padding: 0px 20px;
+  }
+
+  .container .reg{
+    width: 80%;
+  }
+
+  .reg p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  header > ul  {
+    display: none;
+  }
+  .container{
+    height: 180vh;
+  }
+
+  .container > .reg {
+    padding: 0px 20px;
+  }
+
+  .container .reg{
+    width: 80%;
+  }
+
+  .reg p {
+    font-size: 1rem;
+  }
+}
