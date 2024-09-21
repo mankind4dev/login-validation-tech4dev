@@ -48,12 +48,12 @@ header button {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   padding: 1rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), #333),
     url(./assets/bg8.jpg);
   background-size: cover;
   background-position: center;
+  height: 100%;
 }
 
 .reg h1 {
@@ -63,10 +63,19 @@ header button {
 }
 
 .container .reg {
-  background-color: #333;
-  padding: 0px 50px;
+  display: block;
+  margin: 0 auto;
+  flex-direction: column;
+  align-self: center;
+  border: 3px solid #fff;
+  padding: 10px 50px;
   border-radius: 10px;
-  width: 70%;
+  height: 100%;
+  width: 40%;
+}
+
+.container .reg form {
+  margin: auto;
 }
 
 .reg button {
@@ -126,6 +135,7 @@ section .row input {
   border-radius: 5px;
   border: 1px solid gray;
   outline: none;
+  width: 100%;
 }
 
 .row label {
@@ -155,6 +165,7 @@ section .row input {
 
   .container .reg {
     width: 80%;
+    height: 100%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -164,6 +175,7 @@ section .row input {
 
   .container .reg {
     width: 80%;
+    height: 100%;
   }
 }
 @media screen and (max-width: 992px) {
@@ -173,6 +185,7 @@ section .row input {
 
   .container .reg {
     width: 80%;
+    height: 100%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -180,14 +193,14 @@ section .row input {
     font-size: 1.5rem;
   }
 
- 
-
   .container > .reg {
     padding: 0px 10px;
+    height: 100%;
   }
 
   .container .reg {
     width: 80%;
+    height: 100%;
   }
 }
 @media screen and (max-width: 576px) {
@@ -197,20 +210,21 @@ section .row input {
 
   .container .reg {
     width: 80%;
+    height: 100%;
   }
 }
 @media screen and (max-width: 376px) {
   header > ul {
     display: none;
   }
- 
 
   .container > .reg {
     padding: 0px 10px;
   }
 
   .container .reg {
-    width: 90%;
+    width: 80%;
+    height: 100%;
   }
 
   .reg p {
@@ -227,15 +241,16 @@ section .row input {
   }
 
   .container .reg {
-    width: 90%;
+    padding: 0px 10px;
+    width: 80%;
+    height: ;
   }
 
   .reg p {
     font-size: 1rem;
   }
 
-  .reg >.acct{
-    font-size: 0.9rem
-
+  .reg > .acct {
+    font-size: 0.9rem;
   }
 }
