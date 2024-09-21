@@ -43,8 +43,8 @@ export default function Register() {
   };
   return (
     <>
-      <section className="container">
-        <div className="reg">
+      <section className="container2">
+        <div className="reg2">
           <form onSubmit={handleSubmit}>
             <h1>Login</h1>
             <p>Enter your Email and password below to login into yur account</p>

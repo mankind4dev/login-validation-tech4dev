@@ -53,10 +53,26 @@ header button {
     url(./assets/bg8.jpg);
   background-size: cover;
   background-position: center;
-  height: 100%;
+  height: 100vh;
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), #333),
+    url(./assets/bg8.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .reg h1 {
+  color: #fff;
+  text-align: start;
+  margin: 10px 0;
+}
+.reg2 h1 {
   color: #fff;
   text-align: start;
   margin: 10px 0;
@@ -70,15 +86,37 @@ header button {
   border: 3px solid #fff;
   padding: 10px 50px;
   border-radius: 10px;
-  height: 100%;
+  height: 100vh;
   width: 40%;
 }
-
-.container .reg form {
-  margin: auto;
+.container2 .reg2 {
+  display: block;
+  margin: 0 auto;
+  flex-direction: column;
+  align-self: center;
+  border: 3px solid #fff;
+  padding: 10px 50px;
+  border-radius: 10px;
+  height: 90vh;
+  width: 100%;
 }
 
+ 
+
 .reg button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: #333;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.reg2 button {
   width: 100%;
   padding: 10px;
   border: none;
@@ -98,9 +136,19 @@ header button {
   color: #fff;
   white-space: nowrap;
 }
+.container2 .reg > p {
+  display: flex;
+  margin-bottom: 10px;
+  color: #fff;
+  white-space: nowrap;
+}
 
 .reg p {
   font-size: 18px;
+  color: rgb(158, 143, 143);
+}
+.reg2 p {
+  font-size: 10px;
   color: rgb(158, 143, 143);
 }
 
@@ -114,6 +162,24 @@ header button {
   text-decoration: underline;
 }
 .reg .forgetPass {
+  color: red;
+  white-space: nowrap;
+  margin-left: 10px;
+  text-decoration: none;
+}
+.reg .forgetPass:hover {
+  text-decoration: underline;
+}
+.reg2 .regLink {
+  color: green;
+  white-space: nowrap;
+  margin-left: 10px;
+  text-decoration: none;
+}
+.reg2 .regLink:hover {
+  text-decoration: underline;
+}
+.reg2 .forgetPass {
   color: red;
   white-space: nowrap;
   margin-left: 10px;
@@ -236,14 +302,14 @@ section .row input {
     display: none;
   }
 
-  .container > .reg {
-    padding: 0px 10px;
+  .container  {
+    height: 150vh;;
   }
 
   .container .reg {
     padding: 0px 10px;
     width: 80%;
-    height: ;
+    height: 100%;
   }
 
   .reg p {
