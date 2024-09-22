@@ -160,6 +160,13 @@ header button {
   margin-left: 10px;
   text-decoration: none;
 }
+.reg .acct a{ 
+  color: green;
+  white-space: nowrap;
+  margin-left: 3px;
+  text-decoration: none;
+}
+
 .reg2 .acct a{
   color: green;
   white-space: nowrap;
@@ -238,6 +245,10 @@ section .row input {
   }
 
   .container .reg {
+    width: 80%;
+    height: 100%;
+  }
+  .container2 .reg2 {
     width: 80%;
     height: 100%;
   }
@@ -333,14 +344,18 @@ section .row input {
   }
 
   .reg p {
+    color: aquamarine;
     font-size: 1rem;
   }
 
   .reg2 .acct {
     white-space: nowrap;
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 
+  .reg a{
+    margin-left: 5px;
+  }
   .reg2 a{
     margin-left: 5px;
   }
