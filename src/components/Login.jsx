@@ -16,7 +16,7 @@ export default function Register() {
       name: "email",
       type: "email",
       placeholder: "test@gmail.com",
-      errorMessage: "It should be a valid email @ address",
+      errorMessage: "Input your valid email @ address",
       label: "Email:",
       required: true,
     },
