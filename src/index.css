@@ -85,7 +85,6 @@ header button {
   margin: 0 auto;
   flex-direction: column;
   align-self: center;
- 
   padding: 10px 40px;
   border-radius: 10px;
   height: 100vh;
@@ -96,7 +95,6 @@ header button {
   margin: 0 auto;
   flex-direction: column;
   align-self: center;
-  border: 3px solid #fff;
   padding: 10px 20px;
   border-radius: 10px;
   height: 90vh;
